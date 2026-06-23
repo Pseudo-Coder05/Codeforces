@@ -1,0 +1,38 @@
+#include <algorithm>
+#include <array>
+#include <bitset>
+#include <cassert>
+#include <chrono>
+#include <climits>
+#include <cmath>
+#include <complex>
+#include <cstring>
+#include <functional>
+#include <iomanip>
+#include <iostream>
+#include <map>
+#include <numeric>
+#include <queue>
+#include <random>
+#include <set>
+#include <vector>
+using namespace std;
+#define faster() ios_base::sync_with_stdio(false); cin.tie(nullptr); cout.tie(nullptr);
+#define int long long
+int32_t main() {
+    faster();
+    int t;
+    cin>>t;
+    while(t--) {
+       int n;
+       string s;
+        cin>>n>>s;
+        sort(s.begin(),s.end());
+        string p = "Timur";
+        sort(p.begin(),p.end());
+        if (s==p) cout<<"YES"<<endl;
+        else cout<<"NO"<<endl;
+ 
+ 
+    }
+}
